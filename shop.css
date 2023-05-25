@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo a{
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-image: url('assets/clothings.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+li a{
+    padding: 8px 10px;
+    text-decoration: none;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.supplies{
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.add-cart{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
